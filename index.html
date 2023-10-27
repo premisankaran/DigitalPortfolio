@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>HTML Project</title>
+	<link rel="stylesheet" 
+          type="text/css" 
+          href="index.css">
+</head>
+<body>
+	<!--Header(start)-->
+	<table id="header" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="white">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td>
+							
+
+						</td>
+
+						<td>
+							<font face="Comic sans MS" size="6">
+								<b>Portfolio</b>
+							</font>
+						</td>
+
+						<td width="15%">
+							
+						</td>
+
+						<td>
+							<a href="#home" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									Home
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#about" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									About
+								</font>
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#projects" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									Projects
+								</font>
+							</a>
+						</td>
+
+						
+
+						<td>
+							|
+						</td>
+
+						<td>
+							<a href="#contact" style="text-decoration:none">
+								<font face="Verdana" size="5" color=black>
+									Contact
+								</font>
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Header(end)-->
+
+	<!--Home(start)-->
+	<table id="home" border="1" width="100%"
+		cellpadding="20" cellspacing="0" bgcolor="#07374a">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td align="center" valign="middle">
+							<h3>
+								<font face="Times New Roman"
+									size="6" color="#ffffff">
+									Hi I'am Piramatchi Prabha!
+								</font>
+							</h3>
+
+							<h2>
+								<font face="Verdana" size="6"
+									color="#4CAF50">
+									<!-- Freelance Programmer -->
+								</font>
+							</h2>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Home(end)-->
+
+
+	<!--About(start)-->
+	<section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="left-content">
+          <div>
+            <h1 class="about-heading">About Me</h1>
+          </div>
+		  <center>
+          <img src="pictures/avatar.png" alt="image" /></center>
+          <p>
+            I am 19 year old, BCA student studied at Sri Paramakalyani college.
+            I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new
+            things; the more, the better.
+          </p>
+  
+	<!--About(end)-->
+	<!--Skills (start)-->
+	 <div class="skills">
+          <div class="right-content">
+            <div>
+              <h1 class="skills-heading">My Skills</h1>
+            </div>
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line"><span class="html"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line"><span class="css"></span></div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>JAVA</span>
+                    </div>
+                    <div class="progress-line"><span class="java"></span></div>
+                    <div class="bar">
+                      <div class="info">
+                        <span>JAVASCRIPT</span>
+                      </div>
+                      <div class="progress-line"><span class="javascript"></span></div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>C Programming</span>
+                        </div>
+                        <div class="progress-line"><span class="c"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-arrow-2">
+              <p>
+                <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+<!--skills (end)-->
+	<!--Projects(start)-->
+	<section id="my-works">
+    <div class="portfolio">
+      <div class="proj-heading">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="portfolio-content container">
+        <div class="proj-1">
+          <img src="pictures/pic1.png">
+          <div class="proj1-details">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <h2>Ecommerce Website</h2>
+            <p>Build Using HTML,CSS,JS</p>
+			</div>
+			</div>
+			</div>
+			</section>
+	
+	<!--Projects(end)-->
+
+	
+	<!--Contact(start)-->
+	<div class="main-section contact bg-lightgrey">
+  <div class="container">
+    <h2 class="heading-text">Contact</h2>
+    <div class="width-100">
+      <form>
+        <input type="text" placeholder="Full Name...">
+        <input type="text" placeholder="Full Email Id...">
+        <input type="text" placeholder="Full Mobile No...">
+        <input placeholder="Enter Address...">
+        <button type="submit">Submit </button>
+      </form>
+    </div>
+	  <!--contact (end)-->
+<script>
+	var header = document.getElementById('header');
+	header.style.maxHeight = '0px';
+
+	function menutoggle() {
+	if (header.style.maxHeight == '0px') {
+		header.style.maxHeight = '200px';
+	} else {
+		header.style.maxHeight = '0px';
+	}
+	}
+	</script>
+      
+</body>
+
+</html>
